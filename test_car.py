@@ -1,6 +1,8 @@
 from car import car_details
+
+
 def test_car_details():
-  expected_result = {
+  expected_result == {
     "name=BMW",
     "model=M5",
     "price=25000000",
