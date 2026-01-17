@@ -7,4 +7,4 @@ def test_car_details():
         "price=25000000",
         "color=Black"
     )
-    assert car_details(name, model, price, color) == expected_result
+    assert car_details("BMW","M5",25000000,"black") == expected_result
