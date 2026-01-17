@@ -1,9 +1,9 @@
 def car_details(name,model,price,color):
     results = {
-        "Name": name,
-        "Model": model,
-        "Price": price,
-        "Color": color
+        "Name": {name},
+        "Model": {model},
+        "Price": {price},
+        "Color": {color}
     }
     return results
 
