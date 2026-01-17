@@ -1,11 +1,11 @@
 def car_details(name,model,price,color):
-    result = {
+    results = {
         "Name": name,
         "Model": model,
         "Price": price,
         "Color": color
     }
-    return result
+    return results
 
 if __name__ == "__main__":
     name="BMW"
